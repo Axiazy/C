@@ -10,7 +10,7 @@ int main(){
 	y = f;
 	for(i=1;i<=4;i++){
 		x =i+0.5;
-		r = (*y)(x);
+		r = (*y)(x); //r=y(x) �ȼ� 
 		printf("x=%f,y=%f\n",i+0.5,r);
 	}
 }
